@@ -1,0 +1,27 @@
+﻿{
+  "name": "com.ireshsampath.unity-assets.object-pooling",
+  "version": "1.0.0",
+  "displayName": "Object Pooling",
+  "description": "This asset provides a flexible and efficient object pooling solution for Unity projects. Streamline your game's performance by reusing objects instead of instantiating and destroying them, reducing memory allocation and improving frame rates. Ideal for handling bullets, enemies, or any frequently used objects in your game.",
+  "unity": "6000.0",
+  "unityRelease": "25f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+  },
+  "samples": [
+    {
+      "displayName": "Object pooling sample 1",
+      "description": "A simple example to get started with object pooling. ",
+      "path": "Samples~/Sample 1"
+    }],
+  "keywords": [    "object-pooling",
+    "Unity object pooling"
+  ],
+  "author": {
+    "name": "Iresh Sampath",
+    "email": "ireshsampath@gmail.com",
+    "url": "https://ireshsampath.portfoliobox.io/"
+  }
+}
