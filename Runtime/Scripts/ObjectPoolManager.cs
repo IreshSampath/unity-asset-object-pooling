@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace GAG.ObjectPooling
 {
-    public class GameManager : MonoBehaviour
+    public class ObjectPoolManager : MonoBehaviour
     {
         #region Objects pooling
 
@@ -25,7 +25,7 @@ namespace GAG.ObjectPooling
 
         void OnEnable()
         {
-            Events.OnObjectArrived += DespawanObject;
+            ObjectPoolEvents.OnObjectArrived += DespawanObject;
         }
 
         void Start()
@@ -91,7 +91,7 @@ namespace GAG.ObjectPooling
             if (newObject != null)
             {
                 newObject.transform.position = _objectPrefabs[selectedObject].transform.position;
-                newObject.gameObject.GetComponent<Obj>().Speed = _speed;
+                newObject.gameObject.GetComponent<ObjectPoolObject>().Speed = _speed;
                 newObject.SetActive(true);
             }
             else

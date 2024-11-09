@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GAG.ObjectPooling
 {
-    public class Events
+    public class ObjectPoolEvents
     {
         public static Action OnObjectSpawned;
         public static Action<GameObject> OnObjectArrived;

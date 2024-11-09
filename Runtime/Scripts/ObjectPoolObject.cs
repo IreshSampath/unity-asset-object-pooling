@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace GAG.ObjectPooling
 {
-    public class Obj : MonoBehaviour
+    public class ObjectPoolObject : MonoBehaviour
     {
         public int Speed;
 
@@ -22,7 +22,7 @@ namespace GAG.ObjectPooling
         {
             if (gameObject.transform.position.y >= 2.25f)
             {
-                Events.OnObjectArrived?.Invoke(gameObject);
+                ObjectPoolEvents.OnObjectArrived?.Invoke(gameObject);
             }
         }
     }
