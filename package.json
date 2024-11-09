@@ -8,16 +8,35 @@
   "documentationUrl": "https://example.com/",
   "changelogUrl": "https://example.com/changelog.html",
   "licensesUrl": "https://example.com/licensing.html",
-  "dependencies": {
-  },
+  "dependencies": {},
   "samples": [
     {
-      "displayName": "Object pooling sample 1",
-      "description": "A simple example to get started with object pooling. ",
+      "displayName": "Object pooling sample",
+      "description": "A simple example to get started with object pooling.",
       "path": "Samples~/Sample 1"
-    }],
-  "keywords": [    "object-pooling",
-    "Unity object pooling"
+    }
+  ],
+  "keywords": [
+    "object-pooling",
+    "Unity object pooling",
+    "game optimization",
+    "performance improvement",
+    "memory management",
+    "resource management",
+    "bullet pooling",
+    "enemy pooling",
+    "spawn system",
+    "prefab recycling",
+    "game objects",
+    "object reuse",
+    "frame rate optimization",
+    "garbage collection",
+    "Unity assets",
+    "pool manager",
+    "instantiation",
+    "destroy optimization",
+    "game dev tools",
+    "Unity performance"
   ],
   "author": {
     "name": "Iresh Sampath",
